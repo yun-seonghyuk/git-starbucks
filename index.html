@@ -31,6 +31,10 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- SWIPER -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
+
   <script defer src="./js/main.js"></script>
 </head>
 
@@ -393,13 +397,28 @@
   </section>
 
   <section class="notice">
-    <div class="notic-line">
+    <div class="notice-line">
       <div class="bg-left"></div>
       <div class="bg-right"></div>
       <div class="inner">
         <div class="inner__left">
           <h2>공지사항</h2>
-          <div class="swiper-container"></div>
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="#">크리스마스 & 연말연시 스타벅스 매장 영업시간</a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">[당첨자 발표] 2022 스타벅스 플래너 영수증 이벤트</a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">스타벅스커피 코리아 애플리케이션 버전 업데이트</a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">[당첨자 발표] 뉴이어 전자영수증 이벤트</a>
+              </div>
+            </div>
+          </div>
           <a href="#" class="notice-line__more">
             <div class="material-symbols-outlined">add_circle</div>
           </a>
@@ -410,6 +429,53 @@
             <div class="material-symbols-outlined">upload</div>
           </div>
         </div>
+      </div>
+    </div>
+
+    <div class="promotion">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./images/promotion_slide1.jpg" alt="2022 뉴이어, 스타벅스와 함께 즐겁고 활기차게 시작하세요!">
+            <a href="#" class="btn">자세히 보기</a>
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/promotion_slide2.jpg" alt="2022 뉴이어, 스타벅스와 함께 즐겁고 활기차게 시작하세요!">
+            <a href="#" class="btn">자세히 보기</a>
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/promotion_slide3.jpg" alt="2022 뉴이어, 스타벅스와 함께 즐겁고 활기차게 시작하세요!">
+            <a href="#" class="btn">자세히 보기</a>
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/promotion_slide4.jpg" alt="2022 뉴이어, 스타벅스와 함께 즐겁고 활기차게 시작하세요!">
+            <a href="#" class="btn">자세히 보기</a>
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/promotion_slide5.jpg" alt="2022 뉴이어, 스타벅스와 함께 즐겁고 활기차게 시작하세요!">
+            <a href="#" class="btn">자세히 보기</a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-prev">
+        <div class="material-symbols-outlined">arrow_back</div>
+      </div>
+      <div class="swiper-next">
+        <div class="material-symbols-outlined">arrow_forward</div>
+      </div>
+    </div>
+  </section>
+  <!-- REWARDS -->
+  <section class="rewards">
+    <div class="bg-left"></div>
+    <div class="bg-right"></div>
+    <div class="inner">
+
+      <div class="btn-group">
+        <div class="btn btn--reverse sign-up">회원가입</div>
+        <div class="btn sign-in">로그인</div>
+        <div class="btn gift">g-Gift 선물하기</div>
       </div>
     </div>
   </section>
