@@ -20,6 +20,8 @@ img {
   margin: 0 auto;
   position: relative;
 }
+/* button */
+
 .btn{
   width: 130px;
   padding: 10px;
@@ -190,6 +192,7 @@ header .sub-menu .search .material-symbols-outlined {
 header .sub-menu .search.focused .material-symbols-outlined {
   opacity: 0;
 }
+
 header .main-menu {
   position: absolute;
   bottom: 0;
